@@ -3,19 +3,19 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Начало",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Опции",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Продукт",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Клиенты",
   },
 ];
 
@@ -23,7 +23,7 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Награды",
     content:
       "The best credit cards offer some tantalizing combinations of promotions and prizes",
   },
