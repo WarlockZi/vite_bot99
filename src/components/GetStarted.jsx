@@ -7,14 +7,14 @@ const GetStarted = () => (
 			<div className={`${styles.flexStart} flex-row`}>
 				<p className='font-poppins font-medium text-[18px] leading-[23px] mr-2'>
 					<span className='text-gradient'>
-						Get
+						Пробуй
 					</span>
 				</p>
 				<img src={arrowUp} alt="arrow" className='w-[23px] h-[23px] object-contain' />
 			</div>
 			<p className='font-poppins font-medium text-[18px] leading-[23px]'>
 				<span className='text-gradient'>
-					Started
+					Бесплатно
 				</span>
 			</p>
 		</div>

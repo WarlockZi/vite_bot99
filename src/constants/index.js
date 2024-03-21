@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -19,29 +19,67 @@ export const navLinks = [
   },
 ];
 
+export const HeroDiscount =
+{
+  interest: "20%",
+  period: "1 месяц",
+  heroTitle: {
+    robot: "Робот",
+    will: "будет",
+    work: "работать за вас",
+  },
+  p: "Настроим голосового робота. Выявим точки роста Вашего бизнеса. Выжмем все из Вашего бизнеса, чтобы Вы зарабатывали без излишних усилий"
+};
+
+export const stats = [
+  {
+    id: "stats-1",
+    title: 'Активных пользователей',
+    value: "3800+",
+  },
+  {
+    id: "stats-2",
+    title: 'Компаний доверяют',
+    value: "230+",
+  },
+  {
+    id: "stats-3",
+    title: 'Оплатили',
+    value: "$230M+",
+  },
+];
+
 export const features = [
   {
     id: "feature-1",
     icon: star,
     title: "Награды",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Наши постоянные клиенты получают доступ к беспрецедентным скидкам и щедрым акциям",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% безопасно",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Мы заботимся о безопасности со стороны закона и отслеживаем последние тенденции.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Экономия на оплате труда",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Используя грамотно спроектированного робота, Вы сможете экономить на премиях и больничных своим сотрудникам. Ведь роботы не болеют, не ходят в отпуск и не ошибаются",
   },
 ];
+
+export const business = {
+
+    motoOne: "Вы занимаетесь бизнесом",
+    motoTwo: "Мы приводим Вам клинетов",
+    p: "C профессиональным роботом Вы зарабатываете 24 / 7. Робот выполняет все поставленные задачи точно и в срок. Вам больше не нужно искать, обучать и контролировать менеджеров"
+  
+}
 
 export const feedback = [
   {
@@ -70,23 +108,6 @@ export const feedback = [
   },
 ];
 
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
-];
 
 export const footerLinks = [
   {
